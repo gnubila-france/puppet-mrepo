@@ -19,7 +19,7 @@ class mrepo::params
   $www_ip_based        = false
   $user                = 'apache'
   $group               = 'apache'
-  $source              = 'package'
+  $source              = 'git'
   $ensure_src          = 'latest'
   $selinux             = undef
   $rhn                 = false
